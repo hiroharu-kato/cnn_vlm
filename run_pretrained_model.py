@@ -34,7 +34,7 @@ def run():
     if True:
         print 'Test models'
         reconstruct.run('./testdata/024_227.png', 'reconstructed.png')
-        compute_saliency_map('./testdata/024.jpg', 'saliency_map.png')
+        compute_saliency_map.run('./testdata/024.jpg', 'saliency_map.png')
 
 
 if __name__ == '__main__':
